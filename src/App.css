@@ -1,0 +1,94 @@
+.App{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container{
+  margin-bottom: 100px;
+}
+.logo{
+  margin-right: 30px;
+  font-weight: 900;
+  font-size: 30px;
+}
+.nav{
+  margin-right: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  color:#000;
+}
+button a{
+  color: #fff;
+}
+.navwrite{
+  margin-top: 15px;
+}
+
+.card{
+  display:flex;
+  flex-flow:row nowrap;
+  padding: 0 10%;
+  margin-bottom: 10px;
+  border: none;
+}
+.card:hover{
+  border: 2px solid #dbdbdb;
+}
+.card img{
+  width: 20%;
+  height: 20%;
+  margin-right: 100px;
+}
+.card div{
+  margin-top: 30px;
+}
+.card h2{
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #000;
+}
+.card p{
+  margin-bottom: 20px;
+  width: 80%;
+  color: #000;
+}
+
+/* WritePage */
+.write{
+  margin: 200px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+._btn{
+  display: flex;
+  justify-content: flex-end;
+}
+.write-body input,.write-body textarea{
+  width: 100%;
+}
+._btn button{
+  margin-left: 20px;
+}
+
+/* DetailPage */
+.col-md-6{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+.col-md-6 p{
+  margin-bottom: 40px;
+}
+.col-md-6 img{
+  margin-bottom: 50px;
+}
+.morebtn{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card img{
+  margin: auto 10%;
+}
